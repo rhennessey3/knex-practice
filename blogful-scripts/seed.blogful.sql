@@ -3,7 +3,7 @@ BEGIN;
 INSERT INTO blogful_articles (id, title, content, date_published)
 VALUES
     ('1', 'Cloudapp', 'Research from Stanford shows that speech is 3x faster than text. So record a quick video rather than send the long email.', 2020-07-15 22:10:25-04),
-    ('2', 'Codewars', 'Is n divisible by x and y?, 2020-07-15 22:10:25-04),
+    ('2', 'Codewars', 'Is n divisible by x and y?', 2020-07-15 22:10:25-04),
     ('3', 'Creative circle', 'Fullstack engineering positions near you', 2020-07-15 22:10:25-04),
     ('4', 'Noun project', 'noun gazette july inspiration.', 2020-07-15 22:10:25-04),
     ('5', 'project management institute', 'The next generation of future-focused project professionals are', 2020-07-15 22:10:25-04),
