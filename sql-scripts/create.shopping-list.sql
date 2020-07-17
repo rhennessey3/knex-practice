@@ -1,3 +1,11 @@
+DROP TYPE IF EXISTS grocery;
+CREATE TYPE grocery AS ENUM (
+    'Main',
+    'Snack',
+    'Lunch',
+    'Breakfast'
+);
+
 CREATE TABLE IF NOT EXISTS shopping_list (
     id SERIAL PRIMARY KEY,
     name TEXT NOT NULL,
@@ -8,10 +16,3 @@ CREATE TABLE IF NOT EXISTS shopping_list (
 );
 
 
-DROP TYPE IF EXISTS grocery;
-CREATE TYPE grocery AS ENUM (
-    'Main',
-    'Snack',
-    'Lunch',
-    'Breakfast'
-);
